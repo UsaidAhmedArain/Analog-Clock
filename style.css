@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    position: relative;
+    background-image: url("images\ \(1\).png");
+    height:60vh;
+    width: 60vw;
+    background-repeat: no-repeat;
+    margin: auto;
+    border: 2px solid;
+    background-position: center;
+}
+
+#hour,#minutes,#seconds{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 3px;
+    height: 70px;
+    top: 129px;
+    left: 409px; 
+    /* display: none; */
+}
+
+#minutes{
+    width: 3px;
+    height: 70px;
+    top: 130px;
+    left: 409px; 
+    /* display: none; */
+}
+
+#seconds{
+    width: 3px;
+    height: 70px;
+    top: 130px;
+    left: 409px; 
+}
